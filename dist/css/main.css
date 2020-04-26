@@ -196,6 +196,14 @@ main {
       border-color: #eece1a;
       transition: all 0.5s ease-out; }
 
+.project-info {
+  font-size: 1.3rem;
+  border: 3px #fff solid;
+  padding: 1.5rem 2.5rem;
+  background: #515151;
+  padding: 0.5rem;
+  border-bottom: #eece1a 5px solid; }
+
 .boxes {
   display: flex;
   flex-wrap: wrap;
@@ -266,7 +274,7 @@ main {
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
-    grid-template-columns: repeat(1, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (max-width: 768px) {
   main {

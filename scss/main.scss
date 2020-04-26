@@ -131,6 +131,16 @@ main {
     }
 }
 
+// single project
+.project-info {
+    font-size: 1.3rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    background: lighten($primary-color, 5);
+    padding: 0.5rem;
+    border-bottom: $secondary-color 5px solid;
+}
+
 // Contact Page
 .boxes {
 
