@@ -141,6 +141,34 @@ main {
     border-bottom: $secondary-color 5px solid;
 }
 
+// course page
+.courses {
+    font-size: 1rem;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas:
+    'job1 job2 job3';;
+    grid-template-columns: repeat(3, 1fr);
+
+    .course {
+        background: lighten($primary-color, 5);
+        padding: 0.5rem;
+        border-bottom: $secondary-color 5px solid;
+    }
+
+    .report {
+        //display: block;
+        border: 0;
+        margin-bottom: 0.3rem;
+        &:hover {
+            background: $secondary-color;
+            color: set-text-color($secondary-color);
+        }
+        background: lighten($primary-color, 50);
+        color: #fff;
+    }
+}
+
 // Contact Page
 .boxes {
 
