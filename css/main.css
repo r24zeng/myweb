@@ -264,6 +264,7 @@ main {
         color: #000; }
 
 .btn, .btn-dark, .btn-light {
+  font-size: 1rem;
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
