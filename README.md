@@ -1,7 +1,7 @@
 # Run Zeng's personal web
 ### Tool: npm, node.js, css, sass, Visual Code studio
 ### Teaching source: [https://www.youtube.com/playlist?list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU](https://www.youtube.com/playlist?list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU)
-### My web url: [https://www.google.com](https://www.google.com)
+### My web url: [https://www.runruning.cn](https://www.runruning.cn)
 ### My blog url: [https://r24zeng.github.io](https://r24zeng.github.io)
 ### My blog github repository: https://github.com/r24zeng/r24zeng.github.io
 
