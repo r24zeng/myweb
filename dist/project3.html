@@ -58,12 +58,14 @@
             Jan. 2020 - Apr. 2020
         </h2>
         <div class="project-info">
-            <p>- </p>
-            <p>- </p>
-            <p>- </p>
+            <p>- Through applying distributed system principle, developed remote-access file system in Linux enviroment, which allows multiple clients to access to files on the remote server at the same time with upload download mode.</p>
+            <p>- Implemented “stat, touch, vi, echo, cat” Linux commands to create, read, write and get attributes of remote files by designing new RPC protocals. </p>
+            <p>- Integrated the function enabling multiple clients to read a file concurrently and allowing only one single client to modify it via mutual lock mechanism.</p>
+            <p>- Applied both cache timeout and last modify time check to ensure the file’s freshness whenever the client accesses to it.</p>
+            <p>- Conducted function tests in Python and deployed automatic system tests in ssh.    </p>
         </div>
         <div>
-            <a href="https://git.uwaterloo.ca/r24zeng/remote-access-file-system" class="btn-dark">
+            <a href="https://git.uwaterloo.ca/r24zeng/remote-access-file-system/-/tree/master/A3" class="btn-dark">
                 <i class="fab fa-gitlab"></i> GitLab
             </a>
         </div>
