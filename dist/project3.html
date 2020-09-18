@@ -52,17 +52,15 @@
 
     <main id="single-project">
         <h1 class="lg-heading" style="font-size: 2.5rem;">
-             Remote Access Distributed <span class="text-secondary">Fiile System</span>
+             Remote-access Distributed <span class="text-secondary">Fiile System</span>
         </h1>
         <h2 class="sm-heading">
             Jan. 2020 - Apr. 2020
         </h2>
         <div class="project-info">
-            <p>- Through applying distributed system principle, developed remote-access file system in Linux enviroment, which allows multiple clients to access to files on the remote server at the same time with upload download mode.</p>
-            <p>- Implemented “stat, touch, vi, echo, cat” Linux commands to create, read, write and get attributes of remote files by designing new RPC protocals. </p>
-            <p>- Integrated the function enabling multiple clients to read a file concurrently and allowing only one single client to modify it via mutual lock mechanism.</p>
-            <p>- Applied both cache timeout and last modify time check to ensure the file’s freshness whenever the client accesses to it.</p>
-            <p>- Conducted function tests in Python and deployed automatic system tests in ssh.    </p>
+            <p>- Developed a distributed file system in C++, which supports clients to create, open, read, write and close files on the remote server by designing new Remote Procedure Call (RPC) protocol integrated with FUSE operations.</p>
+            <p>- Achieved strong consistency by introducing mutual lock mechanism and freshness check, which enables only one single client to modify a file and multiple clients to read files concurrently. Reduced server workload through upload/download mode with client-side caching. </p>
+            <p>- Proved the system logic correctness by tracking the log files, deploying units tests in Python and end-to-end tests in Linux.</p>
         </div>
         <div>
             <a href="https://git.uwaterloo.ca/r24zeng/remote-access-file-system/-/tree/master/A3" class="btn-dark">
